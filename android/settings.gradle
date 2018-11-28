@@ -1,0 +1,3 @@
+rootProject.name = 'ReactSwift'
+
+include ':app'
