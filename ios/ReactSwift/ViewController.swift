@@ -19,6 +19,18 @@ class ViewController: UIViewController {
 
     @IBAction func buttonClicked(_ sender: UIButton) {
         
+        let vc = createhighScoreViewController()
+        present(vc, animated: true)
+    }
+    
+    func createHomeScreenViewController() -> UIViewController {
+        let delegate = UIApplication.shared.delegate as! AppDelegate
+        let rootView = RCTRootView(bridge: delegate.bridge!, moduleName: "HomeScreen", initialProperties: nil)
+        let homeVC = UIViewController()
+        homeVC.view = rootView
+        return homeVC
+    }
+    func createhighScoreViewController() -> UIViewController {
         NSLog("Hello")
         let jsCodeLocation = URL(string: "http://localhost:8081/index.bundle?platform=ios")
         let mockData:NSDictionary = ["scores":
@@ -36,7 +48,7 @@ class ViewController: UIViewController {
         )
         let vc = UIViewController()
         vc.view = rootView
-        self.present(vc, animated: true, completion: nil)
+        return vc
     }
 }
 

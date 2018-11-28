@@ -18,6 +18,8 @@
 		4774E05821AE76E600092D1F /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774E05721AE76E600092D1F /* SampleView.swift */; };
 		4774E05A21AE772200092D1F /* SampleViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774E05921AE772100092D1F /* SampleViewManager.swift */; };
 		4774E06121AE782A00092D1F /* SampleViewModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4774E06021AE782A00092D1F /* SampleViewModule.m */; };
+		4774E06321AE7DC700092D1F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4774E06221AE7DC700092D1F /* README.md */; };
+		4774E06621AE7EF900092D1F /* bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4774E06521AE7EF900092D1F /* bundle */; };
 		4A198EDA4299F09294A85566 /* Pods_ReactSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B65362C54EC98CD27C05CBD /* Pods_ReactSwiftTests.framework */; };
 		90CDD543476C6BD84362931A /* Pods_ReactSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F076F0149F6438C9D2CCD251 /* Pods_ReactSwift.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +63,8 @@
 		4774E05B21AE77D800092D1F /* ReactSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		4774E05F21AE782A00092D1F /* SampleViewModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleViewModule.h; sourceTree = "<group>"; };
 		4774E06021AE782A00092D1F /* SampleViewModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleViewModule.m; sourceTree = "<group>"; };
+		4774E06221AE7DC700092D1F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4774E06521AE7EF900092D1F /* bundle */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bundle; sourceTree = "<group>"; };
 		5EF909DFA5173E432DF58610 /* Pods-ReactSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactSwiftUITests/Pods-ReactSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B65362C54EC98CD27C05CBD /* Pods_ReactSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC5A788D5F5B96198942E42 /* Pods-ReactSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactSwift/Pods-ReactSwift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 		4774E01D21AE6FF600092D1F = {
 			isa = PBXGroup;
 			children = (
+				4774E06521AE7EF900092D1F /* bundle */,
+				4774E06221AE7DC700092D1F /* README.md */,
 				4774E02821AE6FF600092D1F /* ReactSwift */,
 				4774E03D21AE6FF700092D1F /* ReactSwiftTests */,
 				4774E04821AE6FF800092D1F /* ReactSwiftUITests */,
@@ -292,8 +298,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4774E06621AE7EF900092D1F /* bundle in Resources */,
 				4774E03421AE6FF700092D1F /* LaunchScreen.storyboard in Resources */,
 				4774E03121AE6FF700092D1F /* Assets.xcassets in Resources */,
+				4774E06321AE7DC700092D1F /* README.md in Resources */,
 				4774E02F21AE6FF600092D1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
